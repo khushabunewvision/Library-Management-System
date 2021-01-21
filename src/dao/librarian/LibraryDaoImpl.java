@@ -13,6 +13,7 @@ public class LibraryDaoImpl implements LibraryDao
 	{
 		if(b.getBookId()!=0)
 		{
+			
 			al.add(b);
 			status=true;	
 		}
